@@ -34,6 +34,5 @@ extension TimerView {
     }
     override func configureAppearance() {
         super.configureAppearance()
-        
     }
 }
