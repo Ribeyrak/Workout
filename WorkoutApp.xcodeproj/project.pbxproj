@@ -71,86 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C80D6B6E29814316004D5BDD /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				C826472E2983DA0F00CD2F19 /* Views */,
-				C86637ED2981344300B8399E /* WABaseController.swift */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		C80D6B6F29814372004D5BDD /* Overview */ = {
-			isa = PBXGroup;
-			children = (
-				C80D6B79298161E7004D5BDD /* Views */,
-				C86637CD29802E8200B8399E /* OverviewController.swift */,
-			);
-			name = Overview;
-			sourceTree = "<group>";
-		};
-		C80D6B702981437A004D5BDD /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				C878D71329B759E600B61149 /* Views */,
-				C80D6B73298143AD004D5BDD /* SessionController.swift */,
-			);
-			name = Session;
-			sourceTree = "<group>";
-		};
-		C80D6B7129814384004D5BDD /* Progress */ = {
-			isa = PBXGroup;
-			children = (
-				C80D6B7529814423004D5BDD /* ProgressController.swift */,
-			);
-			name = Progress;
-			sourceTree = "<group>";
-		};
-		C80D6B722981438C004D5BDD /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				C80D6B7729814448004D5BDD /* SettingsController.swift */,
-			);
-			name = Settings;
-			sourceTree = "<group>";
-		};
-		C80D6B79298161E7004D5BDD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				C82647262982B79700CD2F19 /* WeekView */,
-				C8264722298184FE00CD2F19 /* OverviewNavBar.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		C82647262982B79700CD2F19 /* WeekView */ = {
-			isa = PBXGroup;
-			children = (
-				C82647272982B7C500CD2F19 /* WeekView.swift */,
-				C82647292982BC5000CD2F19 /* WeekdayView.swift */,
-			);
-			name = WeekView;
-			sourceTree = "<group>";
-		};
-		C826472D2983D8C500CD2F19 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				C86637EA2981316100B8399E /* NavBarController.swift */,
-				C86637E02980329100B8399E /* TabBarController.swift */,
-			);
-			name = Navigation;
-			sourceTree = "<group>";
-		};
-		C826472E2983DA0F00CD2F19 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				C8264724298186E200CD2F19 /* BaseView.swift */,
-				C8999FC829843F4000C20974 /* WABaseInfoView.swift */,
-				C80D6B7A29816219004D5BDD /* WAButton.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		C86637BD29802E8200B8399E = {
 			isa = PBXGroup;
 			children = (
@@ -219,31 +139,111 @@
 		C86637EC2981341700B8399E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C80D6B6E29814316004D5BDD /* Base */,
-				C826472D2983D8C500CD2F19 /* Navigation */,
-				C80D6B6F29814372004D5BDD /* Overview */,
-				C80D6B702981437A004D5BDD /* Session */,
-				C80D6B7129814384004D5BDD /* Progress */,
-				C80D6B722981438C004D5BDD /* Settings */,
+				C878D72029B9F1D200B61149 /* Base */,
+				C878D72229B9F20B00B61149 /* Navigation */,
+				C878D72329B9F21800B61149 /* Overview */,
+				C878D71E29B9F0C400B61149 /* Session */,
+				C878D71C29B9F04200B61149 /* Progress */,
+				C878D71B29B9EDA100B61149 /* Settings */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C878D71329B759E600B61149 /* Views */ = {
+		C878D71B29B9EDA100B61149 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				C878D71629B75AD500B61149 /* Timer */,
+				C80D6B7729814448004D5BDD /* SettingsController.swift */,
 			);
-			name = Views;
+			path = Settings;
 			sourceTree = "<group>";
 		};
-		C878D71629B75AD500B61149 /* Timer */ = {
+		C878D71C29B9F04200B61149 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
-				C878D71429B75A0600B61149 /* TimerView.swift */,
-				C878D71729B75AEF00B61149 /* ProgressView.swift */,
+				C80D6B7529814423004D5BDD /* ProgressController.swift */,
 			);
-			name = Timer;
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		C878D71D29B9F0AB00B61149 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				C878D71729B75AEF00B61149 /* ProgressView.swift */,
+				C878D71429B75A0600B61149 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		C878D71E29B9F0C400B61149 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C878D71F29B9F0D700B61149 /* Views */,
+				C80D6B73298143AD004D5BDD /* SessionController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		C878D71F29B9F0D700B61149 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C878D71D29B9F0AB00B61149 /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C878D72029B9F1D200B61149 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C878D72129B9F1DE00B61149 /* Views */,
+				C86637ED2981344300B8399E /* WABaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C878D72129B9F1DE00B61149 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C80D6B7A29816219004D5BDD /* WAButton.swift */,
+				C8999FC829843F4000C20974 /* WABaseInfoView.swift */,
+				C8264724298186E200CD2F19 /* BaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C878D72229B9F20B00B61149 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C86637EA2981316100B8399E /* NavBarController.swift */,
+				C86637E02980329100B8399E /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		C878D72329B9F21800B61149 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				C878D72429B9F25C00B61149 /* Views */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		C878D72429B9F25C00B61149 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C878D72529B9F26500B61149 /* WeekView */,
+				C8264722298184FE00CD2F19 /* OverviewNavBar.swift */,
+				C86637CD29802E8200B8399E /* OverviewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C878D72529B9F26500B61149 /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				C82647272982B7C500CD2F19 /* WeekView.swift */,
+				C82647292982BC5000CD2F19 /* WeekdayView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
