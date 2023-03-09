@@ -29,6 +29,7 @@
 		C86637EE2981344300B8399E /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86637ED2981344300B8399E /* WABaseController.swift */; };
 		C878D71529B75A0600B61149 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878D71429B75A0600B61149 /* TimerView.swift */; };
 		C878D71829B75AEF00B61149 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878D71729B75AEF00B61149 /* ProgressView.swift */; };
+		C878D72729BA082900B61149 /* PercenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878D72629BA082900B61149 /* PercenView.swift */; };
 		C8999FC929843F4000C20974 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8999FC829843F4000C20974 /* WABaseInfoView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		C86637ED2981344300B8399E /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		C878D71429B75A0600B61149 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		C878D71729B75AEF00B61149 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		C878D72629BA082900B61149 /* PercenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercenView.swift; sourceTree = "<group>"; };
 		C8999FC829843F4000C20974 /* WABaseInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C86637DE29802FDC00B8399E /* Application */,
+				C878D72229B9F20B00B61149 /* Navigation */,
 				C86637EC2981341700B8399E /* Controllers */,
 				C86637E4298033B400B8399E /* Helpers */,
 				C86637DF2980303600B8399E /* SupportingFiles */,
@@ -140,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				C878D72029B9F1D200B61149 /* Base */,
-				C878D72229B9F20B00B61149 /* Navigation */,
 				C878D72329B9F21800B61149 /* Overview */,
 				C878D71E29B9F0C400B61149 /* Session */,
 				C878D71C29B9F04200B61149 /* Progress */,
@@ -168,8 +170,9 @@
 		C878D71D29B9F0AB00B61149 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				C878D71729B75AEF00B61149 /* ProgressView.swift */,
 				C878D71429B75A0600B61149 /* TimerView.swift */,
+				C878D71729B75AEF00B61149 /* ProgressView.swift */,
+				C878D72629BA082900B61149 /* PercenView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				C86637EE2981344300B8399E /* WABaseController.swift in Sources */,
 				C86637CC29802E8200B8399E /* SceneDelegate.swift in Sources */,
 				C8999FC929843F4000C20974 /* WABaseInfoView.swift in Sources */,
+				C878D72729BA082900B61149 /* PercenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
