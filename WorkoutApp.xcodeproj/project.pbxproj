@@ -26,7 +26,7 @@
 		C86637E62980340100B8399E /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86637E52980340100B8399E /* UIColor + ext.swift */; };
 		C86637E92980350500B8399E /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86637E82980350500B8399E /* Resources.swift */; };
 		C86637EB2981316100B8399E /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86637EA2981316100B8399E /* NavBarController.swift */; };
-		C86637EE2981344300B8399E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86637ED2981344300B8399E /* BaseController.swift */; };
+		C86637EE2981344300B8399E /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86637ED2981344300B8399E /* WABaseController.swift */; };
 		C878D71529B75A0600B61149 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878D71429B75A0600B61149 /* TimerView.swift */; };
 		C878D71829B75AEF00B61149 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878D71729B75AEF00B61149 /* ProgressView.swift */; };
 		C8999FC929843F4000C20974 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8999FC829843F4000C20974 /* WABaseInfoView.swift */; };
@@ -54,7 +54,7 @@
 		C86637E52980340100B8399E /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		C86637E82980350500B8399E /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		C86637EA2981316100B8399E /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
-		C86637ED2981344300B8399E /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		C86637ED2981344300B8399E /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		C878D71429B75A0600B61149 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		C878D71729B75AEF00B61149 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		C8999FC829843F4000C20974 /* WABaseInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				C826472E2983DA0F00CD2F19 /* Views */,
-				C86637ED2981344300B8399E /* BaseController.swift */,
+				C86637ED2981344300B8399E /* WABaseController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				C86637E62980340100B8399E /* UIColor + ext.swift in Sources */,
 				C8264725298186E200CD2F19 /* BaseView.swift in Sources */,
 				C826472A2982BC5000CD2F19 /* WeekdayView.swift in Sources */,
-				C86637EE2981344300B8399E /* BaseController.swift in Sources */,
+				C86637EE2981344300B8399E /* WABaseController.swift in Sources */,
 				C86637CC29802E8200B8399E /* SceneDelegate.swift in Sources */,
 				C8999FC929843F4000C20974 /* WABaseInfoView.swift in Sources */,
 			);
